@@ -1,0 +1,52 @@
+/* ps */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+section {
+    padding: 40px 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+#timer .countdown-wrapper {
+    margin: 0 auto;
+}
+#timer .card-header{
+    font-family: 'Dancing Script';
+    font-size: 50px;
+}
+#timer #countdown {
+    font-family: sans-serif;
+    text-align: center;
+    color: rgba(238, 238, 238, 0.773);
+    text-shadow: 1px 1px 5px black;
+    padding: 40px 0;
+}
+#countdown .timer{
+    margin: 10px;
+    padding: 20px;
+    font-size: 90px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#timer .countdown-wrapper #countdown #sec{
+    
+    box-shadow: 0 0 0 5px rgba(81, 166, 241, 0.5)
+}
+#timer .countdown-wrapper #countdown #sec:hover{
+    box-shadow: 0 0 0 5px rgb(13, 56, 93)
+}
+#timer #wishes-content{
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.multicolortext {
+    background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
